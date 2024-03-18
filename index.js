@@ -11,7 +11,7 @@ app.use(cors());
 app.use(express.json());
 
 // Use the user router
-// app.use("/users", userRouter);
+app.use("/users", userRouter);
 
 app.get("/", (req, res) => {
   res.json({ message: "Welcome to the server" });
