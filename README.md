@@ -8,7 +8,7 @@ Welcome to the GalaxyCodeHub API documentation. This document provides detailed 
 The base URL for all API endpoints is:
 
 ```
-https://be-galaxy-code-hub.vercel.app/
+https://be-galaxycodehub.onrender.com/
 ```
 
 ## Authentication
