@@ -1,3 +1,6 @@
+Certainly! Here's a revised version of the GalaxyCodeHub API documentation:
+
+---
 
 # GalaxyCodeHub API Documentation
 
@@ -74,6 +77,9 @@ Example Response:
 
 Get the profile information of the authenticated user.
 
+Request Headers:
+- `Authorization` (string, required): JWT token obtained during authentication.
+
 Example Response:
 ```json
 {
@@ -88,3 +94,7 @@ Example Response:
 - **401 Unauthorized**: Authentication credentials are missing or invalid.
 - **404 Not Found**: Resource not found.
 - **500 Internal Server Error**: Server encountered an unexpected condition.
+
+---
+
+Feel free to customize this template based on your specific API endpoints, request/response formats, and error handling strategies. Providing clear and concise documentation will help your clients understand how to use your API effectively.
